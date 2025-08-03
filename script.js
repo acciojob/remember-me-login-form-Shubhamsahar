@@ -29,3 +29,4 @@ existingButton.addEventListener("click", () => {
     const storedUsername = localStorage.getItem("username");
     alert(`Logged in as ${storedUsername}`);
 });
+
