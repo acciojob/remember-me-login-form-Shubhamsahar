@@ -1,4 +1,3 @@
-//your JS code here. If required.
 const form = document.querySelector("form");
 const usernameInput = document.getElementById("username");
 const passwordInput = document.getElementById("password");
@@ -30,4 +29,3 @@ existingButton.addEventListener("click", () => {
     const storedUsername = localStorage.getItem("username");
     alert(`Logged in as ${storedUsername}`);
 });
-
